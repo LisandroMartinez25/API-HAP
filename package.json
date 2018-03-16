@@ -1,0 +1,23 @@
+{
+  "name": "hap",
+  "version": "1.0.0",
+  "description": "Servidor de HAP",
+  "main": "servidor.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lisandro MArtínez",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "knex": "^0.14.4",
+    "mysql": "^2.15.0",
+    "mysql2": "^1.5.2",
+    "sequelize": "^4.35.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.1"
+  }
+}
